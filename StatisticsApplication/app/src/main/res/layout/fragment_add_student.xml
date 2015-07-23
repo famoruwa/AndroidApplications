@@ -1,0 +1,139 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.AddStudentFragment"
+    android:background="#FFF" android:id="@+id/tableLayout" android:shrinkColumns="1"
+    android:stretchColumns="1" android:padding="5dp">
+
+
+    <!-- tableRow1 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow1"
+        android:layout_marginTop="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Student ID"
+            android:id="@+id/lblStudentId"
+            android:gravity="right" android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/txtStudentId"
+            android:layout_span="1"/>
+    </TableRow>
+
+
+    <!-- tableRow2 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Q1"
+            android:id="@+id/lblQ1"
+            android:gravity="right" android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/txtQ1"
+            android:layout_span="1"/>
+    </TableRow>
+
+    <!-- tableRow3 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Q2"
+            android:id="@+id/lblQ2"
+            android:gravity="right" android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/txtQ2"
+            android:layout_span="1"/>
+    </TableRow>
+
+    <!-- tableRow4 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Q3"
+            android:id="@+id/lblQ3"
+            android:gravity="right" android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/txtQ3"
+            android:layout_span="1"/>
+    </TableRow>
+
+    <!-- tableRow5 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Q4"
+            android:id="@+id/lblQ4"
+            android:gravity="right" android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/txtQ4"
+            android:layout_span="1"/>
+    </TableRow>
+
+    <!-- tableRow6 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow6">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Q5"
+            android:id="@+id/lblQ5"
+            android:gravity="right" android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/txtQ5"
+            android:layout_span="1"/>
+    </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student Scores"
+        android:id="@+id/btnSaveStudent"
+        android:gravity="center"
+        android:layout_marginTop="40dp" />
+
+</TableLayout>

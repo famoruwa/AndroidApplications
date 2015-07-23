@@ -1,0 +1,190 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.StatisticsFragment"
+    android:background="#FFF" android:id="@+id/tableLayout" android:shrinkColumns="1,2,3,4,5"
+    android:stretchColumns="1,2,3,4,5" android:padding="5dp">
+
+
+    <!-- tableRow1 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow1"
+        android:layout_marginTop="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="High Score"
+            android:id="@+id/lblHighScore"
+            android:paddingRight="25dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q1"
+            android:id="@+id/lblHighScoreQ1"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q2"
+            android:id="@+id/lblHighScoreQ2"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q3"
+            android:id="@+id/lblHighScoreQ3"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q4"
+            android:id="@+id/lblHighScoreQ4"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q5"
+            android:id="@+id/lblHighScoreQ5"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+    </TableRow>
+
+    <!-- tableRow2 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow2"
+        android:layout_marginTop="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Low Score"
+            android:id="@+id/lblLowScore"
+            android:paddingRight="25dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q1"
+            android:id="@+id/lblLowScoreQ1"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q2"
+            android:id="@+id/lblLowScoreQ2"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q3"
+            android:id="@+id/lblLowScoreQ3"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q4"
+            android:id="@+id/lblLowScoreQ4"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q5"
+            android:id="@+id/lblLowScoreQ5"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+    </TableRow>
+
+
+    <!-- tableRow3 -->
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:id="@+id/tableRow3"
+        android:layout_marginTop="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Average Score"
+            android:id="@+id/lblAvgScore"
+            android:paddingRight="25dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q1"
+            android:id="@+id/lblAvgScoreQ1"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q2"
+            android:id="@+id/lblAvgScoreQ2"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q3"
+            android:id="@+id/lblAvgScoreQ3"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q4"
+            android:id="@+id/lblAvgScoreQ4"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Q5"
+            android:id="@+id/lblAvgScoreQ5"
+            android:paddingRight="5dp"
+            android:layout_span="1"/>
+
+    </TableRow>
+
+</TableLayout>
